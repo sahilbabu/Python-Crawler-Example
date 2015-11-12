@@ -29,7 +29,7 @@ def trade_spider(max_pages):
     while page <= max_pages:
         print('while started')
         #url = "https://buckysroom.org/trade/search.php?page=" + str(page)
-        url = 'http://pixgood.com'
+        url = 'http://mangafox.me/manga/onepunch_man/'
         res = request_handler(url)
         plain_text = res.text
         #print(res.headers)
